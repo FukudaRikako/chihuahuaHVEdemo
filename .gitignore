@@ -1,0 +1,12 @@
+# Local/runtime files
+work/
+.hve/
+.mdq/
+*.log
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
