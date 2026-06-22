@@ -20,6 +20,7 @@ AI が困りごとを整理
 
 | フォルダ / ファイル | 内容 |
 |---|---|
+| `index.html` | 4匹のプロフィール一覧PoC |
 | `original-docs/chihuahua-health-context.md` | 4匹のチワワの健康管理に関する雑なメモ |
 | `qa/chihuahua-health-seed-answers.md` | AI に先に伝えておくルールや補足 |
 | `docs/business-requirement.md` | AI が整理したアプリ要件 |
@@ -35,13 +36,24 @@ AI が困りごとを整理
 
 ## 見る順番
 
-1. `original-docs/chihuahua-health-context.md`
-2. `qa/chihuahua-health-seed-answers.md`
-3. `docs/business-requirement.md`
-4. `docs/usecase/`
-5. `demo-guide.md`
+1. `index.html`
+2. `original-docs/chihuahua-health-context.md`
+3. `qa/chihuahua-health-seed-answers.md`
+4. `docs/business-requirement.md`
+5. `docs/usecase/`
+6. `demo-guide.md`
+
+## PoCを開く
+
+`index.html` をブラウザーで開くと、4匹のプロフィール一覧PoCを見られます。
+
+このPoCで確認できること:
+
+- 4匹のプロフィールを一覧で見られる
+- 名前・性格・健康上の注意で検索できる
+- シニア、食事、通院、予定管理で絞り込める
+- 1匹を選ぶと、今日見ることと家族メモを確認できる
 
 ## 注意
 
 このリポジトリはデモ成果物のサンプルです。HVE 本体や Copilot 実行環境は含めていません。
-
